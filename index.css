@@ -287,9 +287,15 @@
     .nav .nav-1  h1{
         margin-left: 10px;
     }
+    .nav{
+        height: 500px;
+    }
     .nav-2{
-        margin-left: 10px;
-        width: 400px;
+        width: 350px;
+        font-size: 40px;
+        height: 200px;
+        margin-bottom: 100px;
+        margin-left: 10%;
     }
     .sec{
         position: static;
@@ -300,12 +306,12 @@
     .sec img{
         display: block;
         margin-top: 10%;
-        margin-left: 10%;
+        margin-left: 40px;
     }
     .sec .next-text{
         display: block;
-        margin-top: 10%;
-        margin-left: 10%;
+        margin-top: 5%;
+        margin-left: 9%;
     }
     .sec-2 {
      display: none;
@@ -404,7 +410,7 @@ width: 400px;
     .hamburger{
         display: block;
         position: relative;
-        right: 50px;
+        right: -30px;
         top: 10px;
     }
     .hidden-list {
@@ -435,11 +441,5 @@ width: 400px;
         margin-left: 200px;
         color: black;
     }
-    .hamburger span{
-        font-size: 20px;
-        position: absolute;
-        /* right: -30px; */
-        left: 25px;
-        top: 13px;
-    }
+ 
 }
